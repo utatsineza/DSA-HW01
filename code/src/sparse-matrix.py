@@ -155,13 +155,13 @@ def main():
     print("Sparse Matrix Operations")
     
     # File paths (update these based on actual files)
-    file1 = "matrix1.txt"
-    file2 = "matrix2.txt"
+    file1 = "matrixfile1.txt"
+    file2 = "matrixfile3.txt"
 
     try:
         # Load matrices
-        matrix1 = SparseMatrix(matrix_file_path=file1)
-        matrix2 = SparseMatrix(matrix_file_path=file2)
+        matrixfile1 = SparseMatrix(matrix_file_path=file1)
+        matrixfile3 = SparseMatrix(matrix_file_path=file2)
 
         while True:
             print("\nChoose an operation:")
@@ -172,15 +172,15 @@ def main():
             choice = input("Enter your choice: ")
 
             if choice == "1":
-                result = matrix1.add(matrix2)
+                result = matrixfile1.add(matrixfile3)
                 print("\nResult of Addition:")
                 result.display()
             elif choice == "2":
-                result = matrix1.subtract(matrix2)
+                result = matrixfile1.subtract(matrixfile3)
                 print("\nResult of Subtraction:")
                 result.display()
             elif choice == "3":
-                result = matrix1.multiply(matrix2)
+                result = matrixfile1.multiply(matrixfile3)
                 print("\nResult of Multiplication:")
                 result.display()
             elif choice == "4":
