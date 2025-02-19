@@ -155,8 +155,8 @@ def main():
     print("Sparse Matrix Operations")
     
     # File paths (update these based on actual files)
-    file1 = "DSA-HW01/sample_inputs/matrixfile1.txt"
-    file2 = "DSA-HW01/sample_inputs/matrixfile3.txt"
+    file1 = "/full/path/to/DSA-HW01/sample_inputs/matrixfile1.txt"
+    file2 = "/full/path/to/DSA-HW01/sample_inputs/matrixfile3.txt"
 
     try:
         # Load matrices
