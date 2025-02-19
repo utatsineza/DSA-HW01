@@ -173,7 +173,7 @@ def main():
 
             if choice == "1":
                 result = matrixfile1.add(matrixfile3)
-                print("\n\uResult of Addition:")
+                print("\nResult of Addition:")
                 result.display()
             elif choice == "2":
                 result = matrixfile1.subtract(matrixfile3)
