@@ -152,7 +152,7 @@ class SparseMatrix:
 
 # ---------------- Main Program ----------------
 def main():
-    print("Sparse Matrix Operations")
+    print("------Sparse Matrix Operations------")
     
     # File paths (update these based on actual files)
     file1 = "matrixfile1.txt"
@@ -173,7 +173,7 @@ def main():
 
             if choice == "1":
                 result = matrixfile1.add(matrixfile3)
-                print("\nResult of Addition:")
+                print("\n\uResult of Addition:")
                 result.display()
             elif choice == "2":
                 result = matrixfile1.subtract(matrixfile3)
